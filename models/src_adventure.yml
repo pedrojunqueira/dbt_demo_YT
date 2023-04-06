@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: adventure_works
+    database: sql-adventure-prod
+    schema: SalesLT
+    tables:
+      - name: SalesOrderDetail
+      - name: SalesOrderHeader
